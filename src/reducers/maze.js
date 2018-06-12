@@ -2,8 +2,7 @@ import { MAZE_ACTION_TYPES } from '../actions/maze';
 import { MazeUtils } from '../utils/maze-transformer';
 
 const INITIAL_STATE = {
-  // id: '4890ce74-9f71-4c12-8b78-4a4d77e618d1',
-  id: 'c06b7853-0b8b-4087-be79-0eb637e9063a',
+  id: null,
   walls: {
     original: [], // the original array of maze data with all the [west, north] elements
     generated: [], // generated array of maze data into one dimension array for easier floodfill

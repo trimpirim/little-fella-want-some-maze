@@ -23,7 +23,7 @@ const Start = ({
   return (
     <form onSubmit={handleSubmit(_onSubmit)}>
       <Card>
-        <CardHeader title="Are you able to help Pony?" />
+        <CardHeader title="Hey little fella, want some MAZE?" />
         <CardContent>
           <Grid container spacing={16}>
             <Grid item xs={12}>
